@@ -1,9 +1,6 @@
 # DSA210 - Kerem Altunbaş - Term Project
 # Macroeconomic Consequences of Humanitarian Aid Shocks in the Horn of Africa
 
-**DSA 210 – Introduction to Data Science** **Student:** [Senin Adın Soyadın]  
-**Final Report:** [Click here to read the comprehensive Final Report](./FinalReport.md)
-
 ## Project Overview
 In this project, I am investigating the macroeconomic consequences of a simulated 2025 withdrawal of United States humanitarian aid on local staple food markets in the Horn of Africa. By combining data on food prices, humanitarian funding volumes, and agricultural production, I aim to quantify the causal effect of aid cuts and identify the underlying drivers of market prices. This project involves data collection, data cleaning, exploratory analysis, econometric modeling (Difference-in-Differences), and Machine Learning (Random Forest & Gradient Boosting) to determine the exact relationship between foreign aid and local food security.
 
@@ -19,7 +16,7 @@ Pinpoint the exact isolated effect of the US aid withdrawal using a Treatment (S
 Integrate methods from econometrics and predictive modeling to explore real-life global policy applications in a structured way.
 
 ## Motivation
-Motivated by my volunteer experience in Tunisia and my career aspirations to work for the UN or World Bank, I wanted to bridge the gap between humanitarian theory and data science. This concept is deeply rooted in my concurrent coursework for **MGMT310 - Humanitarian Aid**. Understanding how donor dynamics affect local markets is crucial for sustainable development.
+Motivated by my volunteer experience in Tunisia and my career aspirations to work for the UN or World Bank, I wanted to bridge the gap between humanitarian aid and data science. This concept is deeply related with my coursework for **MGMT310 - Humanitarian Aid**.
 
 ## Data Exploration
 - Visualize the extreme right-skewed price distributions of vulnerable countries.
@@ -42,9 +39,8 @@ Motivated by my volunteer experience in Tunisia and my career aspirations to wor
 
 ## Conclusion
 By the end of this project, I aim to answer the following questions:
-- Does the sudden withdrawal of a major donor lead to uncontrollable local food price spikes?
+- Does the sudden withdrawal of a major donor -the US- lead to uncontrollable local food price spikes?
 - Can other donors naturally substitute this funding gap?
-- What are the true, overarching drivers of market variance in the Horn of Africa over a 6-year period?
 
 The broader goal is not just a statistical output—but a clearer understanding of how global funding decisions affect physical survival and market dynamics in underdeveloped regions.
 
@@ -53,12 +49,14 @@ The broader goal is not just a statistical output—but a clearer understanding 
 ## 🚀 How to Reproduce the Analysis & Project Structure
 
 **Project Structure:**
-* `phase3_ML.ipynb`: The main Jupyter Notebook containing all analysis and modeling.
-* `FinalReport.md`: The comprehensive academic final report.
-* `requirements.txt`: Python dependencies.
+* `phase3_ML.ipynb`: The main and final Jupyter Notebook containing all data preprocessing, DiD modeling, and Ensemble Machine Learning analysis.
+* `phase2.ipynb`: The intermediate phase notebook focusing on data collection, initial EDA, and early hypothesis testing.
+* `FinalReport.md`: The comprehensive academic final report discussing methodology, insights, and future work.
+* `Kerem_Altunbas_DSA210_Proposal.pdf`: The initial project proposal outlining the early research goals, dataset selections, and project scope.
+* `requirements.txt`: The list of Python dependencies required to run the code.
 
 **Instructions:**
-1. Clone the repository: `git clone https://github.com/YOUR_GITHUB_USERNAME/YOUR_REPO_NAME.git`
+1. Clone the repository: `güncellencek`
 2. Install dependencies: `pip install -r requirements.txt`
 3. Launch Jupyter Notebook and run `phase3_ML.ipynb` sequentially.
 
