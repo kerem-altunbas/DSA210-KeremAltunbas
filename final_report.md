@@ -22,7 +22,7 @@ To ensure a multidimensional analysis, I collected and merged three distinct dat
 * **WFP (World Food Programme):** Monthly staple crop prices (USD).
 * **UN FTS (Financial Tracking Service):** Annual humanitarian funding volumes (Million USD) from the US and EU.
 * **FAOSTAT:** Regional agricultural production data (Million Tonnes) to control for supply.
-* **Custom Enrichment:** I developed a continuous **"Political Instability Index"** (0.0 - 1.0) based on regional conflict intensity to control for non-economic price drivers.
+* **Custom Enrichment:** I developed a continuous **"Political Instability Index"** based on regional conflict intensity to control for non-economic price drivers.
 
 ### 2.2 Data Cleaning and Preprocessing
 To build the models, the following macroeconomic variables were processed and tracked over 72 months (2020-2026) across three countries:
@@ -33,7 +33,7 @@ To build the models, the following macroeconomic variables were processed and tr
 | 🇺🇸 **`US_Aid_M`** | Continuous | Estimated monthly US humanitarian funding (Million USD). | Core Predictor |
 | 🇪🇺 **`EU_Aid_M`** | Continuous | Estimated monthly EU humanitarian funding (Million USD). | Control Variable |
 | 🌾 **`Crop_Production`**| Continuous | Annual regional harvest yields (Million Tonnes). | Control Variable |
-| ⚠️ **`Instability_Index`**| Float (0-1) | Synthesized proxy metric for regional conflicts and wars. | Control Variable |
+| ⚠️ **`Political_Instability`**| Float (0-1) | Synthesized proxy metric for regional conflicts and wars. | Control Variable |
 | 🚩 **`Treatment`** | Binary (0/1)| 1 = Somalia/Ethiopia (Vulnerable), 0 = Kenya (Stable). | DiD Indicator |
 | ⏱️ **`Post_Shock`** | Binary (0/1)| 1 = Year 2025 and beyond (Post US Aid Cut). | DiD Indicator |
 | ⚡ **`DiD`** | Binary (0/1)| Interaction term (`Treatment` * `Post_Shock`). | **Core Causal Variable** |
