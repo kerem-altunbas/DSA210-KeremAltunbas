@@ -117,7 +117,7 @@ Future extensions of this project could include:
 * **The Type of the Aid:** In MGMT310 course, we learned that there are a lot of ways to distribute aid such as in-cash support or in kind support -directly giving food or clothes etc-. Therefore, with implementing the types of aid given by countries, the question of which way is better for distributing humanitarian aid can be answered.
 
 ## 8. Acknowledgements
-I would like to express my deepest gratitude to **Dr. Asma Nairi**, my instructor for *MGMT310 - Humanitarian Aid and Management*, whose profound expertise and continuous mentorship inspired the conceptual foundation of this research. Her guidance was invaluable in helping me bridge the gap between abstract data science metrics and real-world humanitarian policies. 
+I would like to express my deepest gratitude to **Dr. Asma Nairi**, my instructor for *MGMT310 - Humanitarian Aid and Management*, whose mentorship inspired the conceptual foundation of this research. Her guidance was so insightful in helping me bridge the gap between abstract data science metrics and real-world humanitarian policies. 
 
 
 ---
