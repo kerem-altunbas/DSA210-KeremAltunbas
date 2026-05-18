@@ -56,7 +56,7 @@ The broader goal is not just a statistical output—but a clearer understanding 
 * `requirements.txt`: The list of Python dependencies required to run the code.
 
 **Instructions:**
-1. Clone the repository: `güncellencek`
+1. Clone the repository:
 2. Install dependencies: `pip install -r requirements.txt`
 3. Launch Jupyter Notebook and run `phase3_ML.ipynb` sequentially.
 
