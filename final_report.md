@@ -76,7 +76,7 @@ To ensure robustness, the analysis was split into two frameworks: isolating caus
 
 * **Key Result:** At the standard $\alpha = 0.05$ significance level, a p-value of 0.15 means we **fail to reject the null hypothesis ($H_0$)**. However, the DiD coefficient still revealed a massive directional spike of **+$8.57**. Although we fail to reject null hypothesis, this spike remains a highly critical *practical* signal of market distress.
 
-(shock and prices.png)
+shock and prices.png
 
 ### 🤖 4.3 Machine Learning Approach: Predictive Modeling
 **Models:** Random Forest Regressor & Gradient Boosting Regressor
