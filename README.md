@@ -4,6 +4,8 @@
 ## Project Overview
 In this project, I am investigating the macroeconomic consequences of a simulated 2025 withdrawal of United States humanitarian aid on local staple food markets in the Horn of Africa. By combining data on food prices, humanitarian funding volumes, and agricultural production, I aim to quantify the causal effect of aid cuts and identify the underlying drivers of market prices. This project involves data collection, data cleaning, exploratory analysis, econometric modeling (Difference-in-Differences), and Machine Learning (Random Forest & Gradient Boosting) to determine the exact relationship between foreign aid and local food security.
 
+In this short video the importance of this topic is clearly explained, you can have a look at it: https://www.youtube.com/watch?v=z0uWENrLpDo
+
 ## Objectives
 
 ### Understand Macroeconomic Influencers
