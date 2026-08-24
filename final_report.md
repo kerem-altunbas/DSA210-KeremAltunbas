@@ -61,7 +61,7 @@ Exploratory Data Analysis was conducted to identify price distributions, donor s
 **Model:** Ordinary Least Squares (OLS) Regression with Clustered Standard Errors  
 **Objective:** Isolate the net causal treatment effect of the 2025 US humanitarian aid withdrawal on local retail prices.
 
-$$\text{usdprice}_{it} = \beta_0 + \beta_1 \text{Treatment}_i + \beta_2 \text{Post\_Shock}_t + \beta_3 (\text{Treatment}_i \times \text{Post\_Shock}_t) + \mathbf{X}_{it}'\gamma + \varepsilon_{it}$$
+$$\text{usdprice}_{it} = \beta_0 + \beta_1 \text{Treatment}_i + \beta_2 \text{PostShock}_t + \beta_3 (\text{Treatment}_i \times \text{PostShock}_t) + \mathbf{X}_{it}'\gamma + \varepsilon_{it}$$
 
 * **DiD Interaction Coefficient ($\beta_3$):** +$0.0270 USD/KG
 * **Standard Error:** 0.056
